@@ -2,7 +2,7 @@ from src.langgraphagenticai.state.state import State
 
 class BasicChatbotNode:
     """
-    Basic Chatbot Login Implementation
+    Basic Chatbot Login Implementation logic
     """
     def __init__(self,model):
         self.llm=model
